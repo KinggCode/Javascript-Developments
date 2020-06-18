@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="demo"> Hello World !</h1>
+    <p class="demo1"> Quit Now!!</p>
+
+    <input type="text" name="" id="textbox">
+    
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script>
+$(document).ready(function(){
+    $("#demo").click(function(){
+        document.getElementById('demo').innerHTML = "I am Here";
+        
+    })
+})
+
+// Alert method >>> Js ....
+$(function(){
+    $("#demo").click(function(){
+        alert("Im  a developer!! ");
+    })
+})
+
+
+$(function(){
+    $(".demo1").click(function(){
+        alert("Dont be Silly !!");
+    })
+})
+
+
+$(function(){
+    $("#textbox1").keypress(function(){
+        alert("You are in ");
+    })
+})
+
+
+$(function(){
+    $("#textbox").keyup(function(){
+        alert("You are put ");
+    })
+})
+
+
+
+
+</script>
+
+
+</body>
+</html>
